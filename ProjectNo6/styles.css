@@ -118,14 +118,14 @@ h1 span:nth-child(18)
     0%,100%{
         color: #fff;
         filter: blur(2px);
-        text-shadow: 0 0 10px violet,
-        0 0 20px indigo,
-        0 0 40px blue,
-        0 0 80px green,
-        0 0 120px yellow,
-        0 0 200px orange,
-        0 0 300px red,
-        0 0 400px #ff0080;
+        text-shadow: 0 0 10px #00d9ff,
+        0 0 20px #00d9ff,
+        0 0 40px #00d9ff,
+        0 0 80px #00d9ff,
+        0 0 120px #00d9ff,
+        0 0 200px #00d9ff,
+        0 0 300px #00d9ff,
+        0 0 400px #00d9ff;
 
     }
     5%,95%{
