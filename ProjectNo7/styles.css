@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    /* background-image: url("images/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    overflow: hidden;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #F3F3F3;
+}
+.rightTaskbar{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    height: 70%;
+}
+.startMenu{
+    position: absolute;
+}
