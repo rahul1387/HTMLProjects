@@ -8,9 +8,9 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    /* background-image: url("images/bg.jpeg");
+    background-image: url("images/bg.jpeg");
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 .taskbar{
@@ -20,6 +20,7 @@ body{
     justify-content: center;
     width: 100vw;
     background-color: #F3F3F3;
+    z-index: 100;
 }
 .rightTaskbar{
     position: absolute;
@@ -29,4 +30,27 @@ body{
 }
 .startMenu{
     position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.startMenu img {
+    border-radius: 8px;
+}
+.dekstopIcons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+.dekstopIcons :nth-child(2){
+    margin-bottom: 0.5em;
+}
+.txt{
+    color: #fff;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
 }
